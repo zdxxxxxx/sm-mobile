@@ -1,0 +1,13 @@
+{
+  "name": "m_develop",
+  "version": "1.0.0",
+  "description": "",
+  "main": "fis-conf.js",
+  "scripts": {
+    "build": "rm -rf ../mobile && fis3 release prod -d ../",
+    "watch": "fis3 release prod -d -w ../",
+    "server":"fis3 server start && fis3 release -wL "
+  },
+  "author": "",
+  "license": "ISC"
+}

@@ -1,0 +1,57 @@
+@import '../../static/js/hotcss/px2rem.scss';
+
+.footer-wrapper{
+    .apply{
+        width: 16rem;
+        height: px2rem(270);
+        background: url("../../static/image/common/foot.jpg") no-repeat;
+        background-size:cover;
+        text-align: center;
+        overflow: hidden;
+        .text{
+            font-size: px2rem(20);
+            text-align: center;
+            color: #fff;
+            margin-top:px2rem(90) ;
+        }
+        .btn{
+            display: inline-block;
+            border: 1px solid #fff;
+            font-size: px2rem(16);
+            margin-top:px2rem(20) ;
+            cursor: pointer;
+            padding: px2rem(10) px2rem(20);
+            color: #fff;
+            transition: all .5s ;
+        }
+    }
+    .footer{
+        background: #222222;
+        width: px2rem(640);
+        padding-top: px2rem(30);
+        padding-left:px2rem(30) ;
+        padding-right:px2rem(30) ;
+        box-sizing: border-box;
+        overflow: hidden;
+        p{
+            font-size: px2rem(18);
+            color: #aeaeae;
+            margin: px2rem(15) px2rem(10);
+            span{
+                display: inline-block;
+                margin-right: px2rem(10);
+                margin-left: px2rem(10);
+                font-weight: bold;
+                color: #ccc;
+            }
+        }
+    }
+    .copyright{
+        width: px2rem(640);
+        background: #222222;
+        font-size: px2rem(14);
+        color: #aeaeae;
+        text-align: center;
+        padding: px2rem(20) 0;
+    }
+}

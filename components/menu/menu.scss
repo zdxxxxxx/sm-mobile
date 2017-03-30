@@ -1,0 +1,26 @@
+@import '../../static/js/hotcss/px2rem.scss';
+.menu-wrapper{
+    .menu{
+        width: px2rem(420);
+        position: absolute;
+        left: px2rem(640);
+        height: 100%;
+        background-color: #2E2E2E;
+        z-index: 99;
+        li.first{
+            .text a{
+                text-decoration: none;
+                color:#fff;
+            }
+            .active a{
+                color:#fff;
+            }
+        }
+    }
+    .modal{
+        width: px2rem(640);
+        height: 100%;
+        background: #000;
+        opacity: 0;
+    }
+}

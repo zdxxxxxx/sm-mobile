@@ -1,0 +1,59 @@
+@import '../../js/hotcss/px2rem.scss';
+.header-wrapper{
+    position: absolute;
+    top:0;
+    z-index: 1;
+    width: 16rem;
+    height: 1.6rem;
+    background-color: rgba(0,0,0,.6);
+}
+.menu-wrapper{
+    position: absolute;
+    width: px2rem(640);
+    height: 100%;
+    color:#fff;
+    z-index: 4;
+    display: none;
+}
+.content-wrapper{
+    width: 16rem;
+    .apply{
+        padding: px2rem(15) 0 ;
+        text-align: center;
+        *{
+            vertical-align: middle;
+        }
+        >span{
+            display: inline-block;
+            font-size: px2rem(18);
+            .apply-link{
+                display: inline-block;
+                margin-top: px2rem(6);
+            }
+            .phone{
+                display: inline-block;
+                margin-top: px2rem(6);
+            }
+        }
+        >span:last-child{
+            margin-left: px2rem(50);
+        }
+        .iconfont{
+            display: inline-block;
+            color:rgb(107,120,139);
+            font-size: px2rem(40);
+            margin-right: px2rem(5);
+        }
+    }
+    .title{
+        width: px2rem(640);
+        font-size: px2rem(20);
+        text-align: center;
+        padding: px2rem(15) 0;
+        background: #05090C;
+        color:#eeeeee;
+    }
+}
+.footer-wrapper{
+    width: 16rem;
+}

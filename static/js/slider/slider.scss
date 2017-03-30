@@ -1,0 +1,44 @@
+@import '../hotcss/px2rem.scss';
+
+.slider-wrapper{
+    width: 100%;
+    height: 100%;
+    position: relative;
+    text-align: center;
+    display: inline-block;
+    .slider-contain{
+        display: inline-block;
+        width: 100%;
+        height: 100%;
+        li{
+            width: 100%;
+            height: 100%;
+            list-style:none;
+            position: absolute;
+            overflow: hidden;
+        }
+        .hide{
+            display: none;
+        }
+    }
+    .slider-controller{
+        display: inline-block;
+        position: absolute;
+        width: px2rem(640);
+        bottom:px2rem(10);
+        left: px2rem(320);
+        margin-left: px2rem(-320);
+        li{
+            list-style: none;
+            display: inline-block;
+            width: px2rem(16);
+            height: px2rem(16);
+            border-radius: px2rem(16);
+            background: #e9e9e9;
+            margin: px2rem(0) px2rem(5);
+        }
+        .active{
+            background: #49a9ee;
+        }
+    }
+}

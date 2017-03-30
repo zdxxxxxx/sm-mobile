@@ -1,0 +1,34 @@
+@import '../../static/js/hotcss/px2rem.scss';
+.header-wrapper{
+    .header{
+        position: relative;
+        width: px2rem(640);
+        height: px2rem(64);
+        margin: 0 auto;
+    }
+    .header .logo{
+        position: absolute;
+        display: inline-block;
+        font-size: 0;
+        width: px2rem(165);
+        height: px2rem(45);
+        margin: px2rem(9) px2rem(30);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-image: url("../../static/image/common/logo.png");
+    }
+    .header .sidebar-btn{
+        position: absolute;
+        display: inline-block;
+        right: 0;
+        height: px2rem(64);
+        line-height: px2rem(32);
+        cursor: pointer;
+    }
+    .header .sidebar-btn .iconfont{
+        display: inline-block;
+        margin: px2rem(15) px2rem(30);
+        font-size: px2rem(32);
+        color:#fff;
+    }
+}
