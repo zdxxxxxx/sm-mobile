@@ -1,0 +1,105 @@
+@import '../../js/hotcss/px2rem.scss';
+.content-wrapper{
+    .banner-wrapper {
+        position: relative;
+        width: px2rem(640);
+        height: px2rem(400);
+        background: #eaedf4;
+        overflow: hidden;
+        h1{
+            display: block;
+            width: px2rem(200);
+            font-size: px2rem(32);
+            margin-top: px2rem(130);
+            margin-left: px2rem(50);
+            margin-right: px2rem(150);
+            color: #333;
+            font-weight: normal;
+        }
+        h2{
+            margin-left: px2rem(50);
+            margin-top: px2rem(20);
+            display: block;
+            width: px2rem(300);
+            font-size: px2rem(18);
+            color: #666;
+            font-weight: normal;
+            line-height: px2rem(25);
+        }
+        a{
+            display: inline-block;
+            margin-left: px2rem(50);
+            margin-top: px2rem(20);
+            font-size: px2rem(18);
+            text-decoration: none;
+            color:#2197da;
+            border: 1px solid #2197da;
+            border-radius: px2rem(5);
+            padding: px2rem(10);
+        }
+        img{
+            position: absolute;
+            width: px2rem(150);
+            top: px2rem(150);
+            right: px2rem(80);
+        }
+    }
+    .usage-wrapper {
+        .usage{
+            padding: px2rem(20) px2rem(50);
+            box-sizing: border-box;
+            overflow: hidden;
+            border-bottom: 1px solid #eee;
+            .usage-content{
+                margin-left: px2rem(80);
+                display: inline-block;
+                div.usage-title{
+                    font-size: px2rem(25);
+                    color: #333;
+                }
+                div.usage-info{
+                    font-size: px2rem(20);
+                    width: px2rem(300);
+                    color: #333;
+                    margin-top: px2rem(10);
+                    line-height: px2rem(24);
+                }
+            }
+            *{
+                vertical-align: middle;
+            }
+            .iconfont{
+                font-size: px2rem(120);
+                color: #333;
+                display: inline-block;
+            }
+
+        }
+        .usage:last-child{
+            border-bottom: none;
+        }
+    }
+    .adv-wrapper{
+        padding: px2rem(25) px2rem(50);
+        .adv-content{
+            margin-bottom: px2rem(20);
+            .adv-title{
+                font-size: px2rem(30);
+                text-align: center;
+            }
+            .adv-info{
+                margin-top: px2rem(20);
+                font-size: px2rem(20);
+                padding: 0 px2rem(50);
+                line-height: px2rem(32);
+            }
+            .adv-img{
+                margin: px2rem(50) 0;
+                text-align: center;
+                img{
+                    width: px2rem(360);
+                }
+            }
+        }
+    }
+}

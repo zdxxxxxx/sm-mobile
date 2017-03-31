@@ -1,25 +1,73 @@
 <link rel="stylesheet" href="menu.scss">
-
 <ul class="menu">
-    <li class="first">
-        <div class="text active">
-            <a href="index.html">首页</a>
-        </div>
-        <div class="second">
-            
-        </div>
-    </li>
-    <li class="first">
-        <div class="text">123</div>
-        <div class="second"></div>
-    </li>
-    <li class="first">
-        <div class="text">123</div>
-        <div class="second"></div>
-    </li>
-    <li class="first">
-        <div class="text">123</div>
-        <div class="second"></div>
-    </li>
-</ul>
+        <li class="first active" data-page="index">
+            <div class="first-link ">
+                <a href="index.html">首页</a>
+            </div>
+        </li>
+        <li class="first" data-page="product">
+            <div class="first-link">
+                <a>产品与服务</a>
+                <i class="iconfont">&#xe667;</i>
+            </div>
+            <div class="second hide">
+                <div class="second-link">
+                    <p class="classification">金融反欺诈</p>
+                    <div class="link">
+                        <a href="product.html?product=FINANCE_MED" data-page="FINANCE_MED">金融中介识别</a>
+                        <a href="product.html?product=PHONE_LABEL" data-page="PHONE_LABEL">手机号标签</a>
+                        <a href="product.html?product=LOAN_RISK" data-page="LOAN_RISK">信贷风险评分</a>
+                        <a href="product.html?product=YELLOW_PAGE" data-page="YELLOW_PAGE">黄页信息</a>
+                    </div>
+                    <p class="classification">内容反欺诈</p>
+                    <div class="link">
+                        <a href="product.html?product=POST_TEXT" data-page="POST_TEXT">垃圾文本识别</a>
+                        <a href="product.html?product=POST_IMG" data-page="POST_IMG">垃圾图片识别</a>
+                    </div>
+                    <p class="classification">行为反欺诈</p>
+                    <div class="link">
+
+                        <a href="product.html?product=DEVICE_FINGERPRINT" data-page="DEVICE_FINGERPRINT">设备指纹</a>
+                        <a href="product.html?product=ROBOT_REGISTER" data-page="ROBOT_REGISTER">机器注册识别</a>
+                        <a href="product.html?product=ROBOT_LOGIN" data-page="ROBOT_LOGIN">机器登录识别</a>
+                        <a href="product.html?product=RED_BAG" data-page="RED_BAG">营销活动反作弊</a>
+                    </div>
+                </div>
+            </div>
+        </li>
+        <li class="first" data-page="case">
+            <div class="first-link active">
+                <a>成功案例</a>
+                <i class="iconfont">&#xe667;</i>
+            </div>
+            <div class="second hide">
+                <div class="second-link">
+                    <p class="classification">直播</p>
+                    <div class="link">
+                        <a href="case.html?company=PANDA" data-page="PANDA">熊猫TV</a>
+                        <a href="case.html?company=HUAJIAO" data-page="HUAJIAO">花椒直播</a>
+                    </div>
+                    <p class="classification">电商</p>
+                    <div class="link">
+                        <a href="case.html?company=LIEQU" data-page="LIEQU">猎趣</a>
+                    </div>
+                    <p class="classification">金融</p>
+                    <div class="link">
+                        <a href="case.html?company=ZHONGXIN" data-page="ZHONGXIN">中信银行</a>
+                    </div>
+
+                </div>
+            </div>
+        </li>
+        <!--<li class="first" data-page="news">-->
+            <!--<div class="first-link ">-->
+                <!--<a href="about.html">数美动态</a>-->
+            <!--</div>-->
+        <!--</li>-->
+        <li class="first" data-page="about">
+            <div class="first-link ">
+                <a href="about.html">关于我们</a>
+            </div>
+        </li>
+    </ul>
 <div class="modal"></div>

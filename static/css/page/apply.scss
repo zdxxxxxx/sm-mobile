@@ -1,0 +1,93 @@
+@import '../../js/hotcss/px2rem.scss';
+.content-wrapper{
+    .banner-wrapper{
+        padding: px2rem(80) px2rem(50);
+        text-align: center;
+        background: #2197da;
+        height: px2rem(100);
+        span{
+            display: inline-block;
+            font-size: px2rem(24);
+            width: px2rem(320);
+            margin: px2rem(20) auto;
+            color: #fff;
+        }
+        .iconfont{
+            color: #fff;
+            display: inline-block;
+            font-size: px2rem(60);
+            margin-top: px2rem(50);
+        }
+    }
+    .form-wrapper{
+        padding: px2rem(50);
+        .form-block{
+            padding: 0 px2rem(20);
+            margin-bottom: px2rem(30);
+            height: px2rem(160);
+            overflow: hidden;
+            label{
+                font-size: px2rem(28);
+            }
+            .form-input{
+                border: px2rem(2) solid #e6e6e6;
+                border-radius: 3px;
+                height: px2rem(60);
+                padding: 0 px2rem(10);
+                margin-top: px2rem(10);
+                color:#333;
+                input{
+                    border: 0;
+                    height: px2rem(60);
+                    width: 100%;
+                    -webkit-appearance: none;
+                    outline: 0;
+                    font-size: px2rem(25);
+                    color:#333;
+                    box-sizing: border-box;
+                }
+            }
+            .msg{
+                display: none;
+                margin-top: px2rem(10);
+                font-size: px2rem(22);
+                .iconfont{
+                    display: inline-block;
+                    margin-right: px2rem(5);
+                }
+            }
+            p.error{
+                border: 1px solid #ff3c2d;
+            }
+            p.code{
+                width: px2rem(120);
+                position: relative;
+                img{
+                    margin-left: px2rem(140);
+                    width: px2rem(220);
+                    height: px2rem(60);
+                    position: absolute;
+                    top:0;
+                }
+            }
+            span.error{
+                color:#ff3c2d;
+                display: block;
+            }
+
+        }
+        .form-btn{
+            margin-top: px2rem(-20);
+            text-align: center;
+            a{
+                padding: px2rem(10) px2rem(40);
+                border: 1px solid #49a9ee;
+                font-size: px2rem(20);
+                font-weight: normal;
+                color: #fff;
+                background: #49a9ee;
+                text-decoration: none;
+            }
+        }
+    }
+}

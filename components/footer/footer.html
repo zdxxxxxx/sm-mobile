@@ -2,8 +2,7 @@
 
 <div class="apply">
     <p class="text">立即体验数美服务</p>
-    <div class="btn">免费试用</div>
-
+    <a class="btn" href="apply.html">免费试用</a>
 </div>
 <div class="footer">
     <p><span>电话:</span>400-610-3866</p>
@@ -12,9 +11,14 @@
     <p><span>邮箱:</span>shumei@ishumei.com</p>
     <p><span>地址:</span>北京市朝阳区望京诚盈中心1号楼3A</p>
 </div>
+<script>
+    if(window.location.href.indexOf('apply.html')>-1){
+        document.querySelector('.apply').style.display = 'none';
+    }
+</script>
 <div class="copyright">
     Copyright©2016 shumei All Rights Reserved
 </div>
-<script type="text/javascript" src="../../static/js/lib/jquery.min.js"></script>
+<script type="text/javascript" src="../../static/js/libs/jquery.min.js"></script>
 <script type="text/javascript" src="../../static/js/slider/slider.js"></script>
 <script type="text/javascript" src="../../static/js/menu/menu.js"></script>

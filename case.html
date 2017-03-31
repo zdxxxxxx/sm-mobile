@@ -1,0 +1,68 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>数美,大数据综合解决方案提供商</title>
+    <!--外部样式表-->
+    <link rel="stylesheet" href="static/css/page/case.scss">
+
+    <!--hotcss-->
+    <link rel="import" href="components/meta/meta.html?__inline">
+</head>
+<body>
+<div class="body">
+    <!--顶部导航-->
+    <div class="header-wrapper">
+        <link rel="import" href="components/header/header.html?__inline">
+    </div>
+    <!--菜单栏-->
+    <div class="menu-wrapper" id="menu">
+        <link rel="import" href="components/menu/menu.html?__inline">
+    </div>
+
+    <!--主内容区-->
+    <div class="content-wrapper">
+
+    </div>
+    <!--页脚-->
+    <div class="footer-wrapper">
+        <link rel="import" href="components/footer/footer.html?__inline">
+    </div>
+</div>
+
+<script type="text/html" id="tpl">
+    <div class="banner-wrapper">
+        <h1>{{banner.title}}</h1>
+        <h2>
+            {{banner.info}}
+        </h2>
+        <img src="{{banner.image}}" alt="">
+    </div>
+    <div class="title">客户难题</div>
+    <div class="problem-wrapper">
+        <div class="problem-info">
+            {{problem}}
+        </div>
+    </div>
+    <div class="title">产品优势</div>
+    <div class="answers-wrapper">
+        {{each answers as a index}}
+        <div class="answers-content">
+            <div class="answers-info">
+                {{a.info}}
+            </div>
+        </div>
+        {{/each}}
+    </div>
+</script>
+
+</body>
+<script type="text/javascript" src="static/js/libs/template.js"></script>
+<script type="text/javascript" src="static/js/page/case.js">
+</script>
+</html>
+
+
+
+

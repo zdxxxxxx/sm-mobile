@@ -1,0 +1,66 @@
+@import '../../js/hotcss/px2rem.scss';
+.content-wrapper{
+    .banner-wrapper {
+        position: relative;
+        width: px2rem(640);
+        height: px2rem(400);
+        background: #eaedf4;
+        overflow: hidden;
+        h1{
+            display: block;
+            width: px2rem(200);
+            font-size: px2rem(32);
+            margin-top: px2rem(130);
+            margin-left: px2rem(50);
+            margin-right: px2rem(150);
+            color: #333;
+            font-weight: normal;
+        }
+        h2{
+            margin-left: px2rem(50);
+            margin-top: px2rem(20);
+            display: block;
+            width: px2rem(300);
+            font-size: px2rem(18);
+            color: #666;
+            font-weight: normal;
+            line-height: px2rem(25);
+        }
+        a{
+            display: inline-block;
+            margin-left: px2rem(50);
+            margin-top: px2rem(20);
+            font-size: px2rem(18);
+            text-decoration: none;
+            color:#2197da;
+            border: 1px solid #2197da;
+            border-radius: px2rem(5);
+            padding: px2rem(10);
+        }
+        img{
+            position: absolute;
+            width: px2rem(150);
+            top: px2rem(150);
+            right: px2rem(80);
+        }
+    }
+    .problem-wrapper {
+        div.problem-info{
+            padding: px2rem(20) px2rem(100);
+            font-size: px2rem(20);
+            line-height: px2rem(32);
+        }
+    }
+    .answers-wrapper{
+        padding: px2rem(25) px2rem(50);
+        .answers-content{
+            margin-bottom: px2rem(20);
+            .answers-info{
+                margin-top: px2rem(20);
+                font-size: px2rem(20);
+                padding: 0 px2rem(50);
+                line-height: px2rem(32);
+            }
+        }
+    }
+}

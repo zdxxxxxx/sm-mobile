@@ -40,6 +40,8 @@
 
 .icon-zhongjiefei:before { content: "\e737"; }
 
+.icon-cuowu:before { content: "\e62c"; }
+
 .icon-yingxiaofanzuobi:before { content: "\e647"; }
 
 .icon-zhaoxiangsi:before { content: "\e63f"; }
@@ -60,6 +62,8 @@
 
 .icon-API:before { content: "\e81a"; }
 
+.icon-xialajiantou:before { content: "\e67c"; }
+
 .icon-shouji1:before { content: "\e63d"; }
 
 .icon-yonggongfengxianicon:before { content: "\e68f"; }
@@ -69,6 +73,8 @@
 .icon-shebei1:before { content: "\e6b0"; }
 
 .icon-shijian:before { content: "\e643"; }
+
+.icon-xialajiantou1:before { content: "\e667"; }
 
 .icon-shebei2:before { content: "\e646"; }
 
